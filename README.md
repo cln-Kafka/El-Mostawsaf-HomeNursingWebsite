@@ -41,6 +41,15 @@ Gratitude goes out to all team members for their valuable contributions to this 
   <a href="https://github.com/MohamedSayedDiab">
     <img src="https://avatars.githubusercontent.com/u/90231744?v=4" width="100px" alt="@M.Sayed">
   </a>
+  <a href="https://github.com/hagersamir">
+    <img src="https://avatars.githubusercontent.com/u/105936147?v=4" width="100px" alt="@Hager Samir">
+  </a>
+  <a href="https://github.com/joyou159">
+    <img src="https://avatars.githubusercontent.com/u/85418161?v=4" width="100px" alt="@Youssef A. Shawki">
+  </a>
+  <a href="https://github.com/hadeershrif">
+    <img src="https://avatars.githubusercontent.com/u/115186536?v=4" width="100px" alt="@Hadeer Sherif">
+  </a>
 </div>
 
 ## License
