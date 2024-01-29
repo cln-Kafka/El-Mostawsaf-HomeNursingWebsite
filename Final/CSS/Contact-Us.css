@@ -1,0 +1,210 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f7ff;
+}
+
+/* Start Nav Bar */
+.navbar {
+    background-color: #f1f7ff;
+}
+.navbar-nav {
+    margin-left: 130px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #fd8311;
+}
+
+.navbar-nav .active > .nav-link {
+    color: #fd8311 !important
+}
+
+/* for login button, note that radius and border are not working, but it is okay */
+.cta {
+    transform: translate(-5%,-5%);
+    border: 2px solid #fd8311;
+    border-radius: 50px;
+}
+
+.btn {
+    background: none;
+    text-transform: uppercase;
+    transition: color 0.4s linear;
+    position: relative;
+    color: #fd8311;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn::before {
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fd8311;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+
+.login::before{
+    transform: scaleX(0);
+}
+
+.login:hover::before{
+    transform: scaleX(1);
+}
+
+/* End Nav Bar */
+
+/* Start Slider */
+
+.slider{
+    background-color: #ddd;
+    height: 100vh;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.slider .carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box {
+    position: absolute;
+    top: 25%;
+    left: 20.6%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    color: #1b2f65;
+    text-align: center;
+    border-radius: 17px;
+    display: inline-block;
+}
+
+.text-box h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    max-width: 700px;
+    line-height: 1.4;
+}
+
+.text-box p {
+    font-size: 20px;
+}
+/* 
+.slider .carousel-inner .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+} */
+
+.slider .carousel-item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-backgroup-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-one {
+    background-image: url('../Images/homepage-cover-01-edited-edited.jpg');
+}
+
+/* End Slider */
+
+/* Start contact-us */
+
+.contact-form {
+    position: absolute;
+    background-color: #f1f7ff;
+    z-index: 3;
+    top: 33%;
+    left: -2.5%;
+}
+  
+.contact-us {
+    text-align: center;
+}
+
+.card {
+    width: 500px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+  
+.card-body {
+    padding: 20px;
+}
+  
+.custom-submit-btn {
+    color: #fff;
+    background-color: #fd8311;
+    border-color: #fd8311;
+    margin-top: 10px;
+}
+  
+.contact-us h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-us p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1b2f65;
+}
+
+.form-control:focus {
+    border-color: #fd8311 !important; /* Set the desired border color for the active state */
+    box-shadow: 0 0 0 0.2rem rgba(253, 131, 17, 0.25) !important;/* Optional: Add a subtle box shadow effect */
+}
+
+.custom-submit-btn {
+    color: #fff;
+    background-color: #fd8311; /* Set the desired background color */
+    border-color: #fd8311; /* Set the desired border color */
+}
+  
+.custom-submit-btn:hover {
+    background-color: #ff9e40; /* Set the desired hover background color */
+    border-color: #ff9e40; /* Set the desired hover border color */
+}
+
+/* End contact-us*/
+
+/* Start copyright section */
+.lower-bar {
+    position: absolute;
+    padding: 10px;
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    background-color: #1b2f65;
+    line-height: 1.4;
+    font-weight: 600;
+    letter-spacing: 0ch;
+    bottom: 0;
+}
+/* End copyright section */
