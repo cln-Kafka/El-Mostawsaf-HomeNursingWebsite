@@ -20,8 +20,7 @@ What follows are detailed steps to run and see the website fully working on your
 8. Name the folder you made "final_p" and then click on "import" in the tob bar.
 9. Then import "Home_Nursing.sql", which we included with the project files.
 10. Uncheck the option "Enaple foreign key checks" and then click import at the bottom of the page.
-11. Finally, to open any page in our website, write in the search bar "localhost/Final/"pagename".php".
-for example: http://localhost/Final/Homepage.php
+11. Finally, to open any page in our website, write in the search bar "localhost/Final/"pagename".php". for example: http://localhost/Final/Homepage.php
 ----------------------------------------------
 Thank you! I hope you like our website, el-Mostawsaf ♥♥♥♥
 
