@@ -25,7 +25,7 @@ What follows are detailed steps to run and see the website fully working on your
 ## Help
 
 If you encounter any issues or have questions, feel free to reach out.
-Thank you! We hope you like our website, El-Mostawsaf ♥♥♥♥
+Thank you! We hope you like our website, El-Mostawsaf :heart:	
 
 ## Contributors
 
